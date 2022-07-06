@@ -32,7 +32,7 @@ Bullet bullet = m_Pool.Spawn(transform.position, transform.rotation, transform);
 ```
 
 ### Release spawned objects
-Only set the object's inactive
+Only inactive the gameObject
 
 ```csharp
 bullet.gameObject.SetActive(false);
@@ -41,6 +41,6 @@ bullet.gameObject.SetActive(false);
 gameObject.SetActive(false);
 ```
 
-Easy without complication
+Voila
 
 
