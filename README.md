@@ -1,7 +1,7 @@
 # Generic-Object-Pooling-for-Unity
 
 It is an Object Pooling approach that is very simple, but performant and easy to use for working directly with GameObject's components.```
-Consequently, GetComponent*>() and other indirect access to dependencies of spawned objects are reduced.```
+Consequently, GetComponent<>() and other indirect access to dependencies of spawned objects are reduced.```
 ## Usage
 ### Initialize, Warm up the object pool
 ``` csharp
